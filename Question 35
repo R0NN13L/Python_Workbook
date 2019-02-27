@@ -1,0 +1,8 @@
+dog_age = int(input())
+if dog_age <=2:
+    age = dog_age * 10.5
+    print(real_age) 
+
+else:
+    age = (dog_age - 2) * 4 + 21
+    print(real_age)
