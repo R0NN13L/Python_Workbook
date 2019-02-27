@@ -1,0 +1,8 @@
+number_1 = int(input()) 
+number_2 = int(input())
+answer = number_1 + number_2
+
+if answer %2: 
+    print(answer, "this is an odd number")
+else: 
+    print(answer, "this is an even number")
