@@ -1,0 +1,37 @@
+# 2000 %12 = 8
+# 2001 %12 = 9
+# 2002 %12 = 10
+# 2003 %12 = 11
+# 2004 %12 = 0
+# 2005 %12 = 1
+# 2006 %12 = 2
+# 2007 %12 = 3
+# go up until the answer is 7
+
+year = int(input("type in a year: "))
+zodiac = year %12
+
+if zodiac == 8:
+    print("This year is the year of the dragon")
+elif zodiac == 9:
+    print("This year is the year of the snake")
+elif zodiac == 10:
+    print("This year is the year of the horse")
+elif zodiac == 11:
+    print("this year is the year of the sheep")
+elif zodiac == 0:
+    print("this year is the year of the monkey")
+elif zodiac == 1:
+    print("this year is the year of the rooster")
+elif zodiac == 2:
+    print("this year is the year of the dog")
+elif zodiac == 3:
+    print("this year is the year of the pig")
+elif zodiac == 4: 
+    print("this year is the year of the rat")
+elif zodiac == 5:
+    print("this year is the year of the ox")
+elif zodiac == 6:
+    print("this year is the year of the tiger")
+elif zodiac == 7:
+    print("this year is the year of the hare")
