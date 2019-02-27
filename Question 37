@@ -1,0 +1,30 @@
+number_of_sides = int(input("type in a number that is between 3 and 10: "))
+if number_of_sides == 3: 
+    print(f"a shape with {number_of_sides} sides is a triangle")
+
+if number_of_sides == 4:
+    print(f"a shape with {number_of_sides} sides is a rectangle")
+
+if number_of_sides == 5:
+    print(f"a shape with {number_of_sides} sides is a pentagon")
+
+if number_of_sides == 6:
+    print (f"a shape with {number_of_sides} sides is a hexagon") 
+
+if number_of_sides == 7:
+    print(f"a shape with {number_of_sides} sides is a heptagon")
+
+if number_of_sides == 8:
+    print(f"a shape with {number_of_sides} sides is a octogon")
+
+if number_of_sides == 9:
+    print(f"a shpe with {number_of_sides} sides is a nonagon")
+
+if number_of_sides == 10:
+    print(f"a shpe with {number_of_sides} sides is a decagon")
+
+if number_of_sides < 3:
+    print("error: follow directions please")
+
+if number_of_sides > 10:
+    print("error: follow directions please")
