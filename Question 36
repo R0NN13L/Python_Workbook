@@ -1,5 +1,0 @@
-letter = input("type a letter in the alphabet: ")
-if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u': 
-    print(f"the letter {letter} is a vowel")
-else:
-    print(f"the letter {letter} is a consonant")
